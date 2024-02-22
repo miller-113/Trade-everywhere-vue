@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Header/>
+  <TradeEverywhere/>
+  <GettingStartIsFastEasy/>
+  <PeopleLoveBigInvest/>
+  <FrequentlyAskedQuestion/>
+  <ContactUs/>
+  <AppFooter/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/AppHeader.vue';
+import TradeEverywhere from './components/1_sectionTradeEverywhere/AppTradeEverywhere.vue';
+import GettingStartIsFastEasy from './components/2_sectionGettingStarted/AppGettingStartIsFastEasy.vue';
+import PeopleLoveBigInvest from './components/3_sectionPeopleLoveBigInvest/AppPeopleLoveBigInvest.vue';
+import FrequentlyAskedQuestion from './components/4_sectionFrequentlyAskedQuestions/AppFrequentlyAskedQuestion.vue';
+import ContactUs from './components/5_sectionContactUs/AppContactUs.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    TradeEverywhere,
+    GettingStartIsFastEasy,
+    PeopleLoveBigInvest,
+    FrequentlyAskedQuestion,
+    ContactUs,
+    AppFooter,
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
