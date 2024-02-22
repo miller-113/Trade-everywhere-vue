@@ -1,4 +1,3 @@
-# js_tetovoe3
 
 ## Project setup
 ```
